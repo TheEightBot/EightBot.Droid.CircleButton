@@ -12,7 +12,7 @@ namespace EightBot.Droid.CircleButton
 {
 	public class CircleButton : ImageView
 	{
-		private const int PRESSED_COLOR_LIGHTUP = 255 / 25;
+		private const int PRESSED_COLOR_LIGHTUP = 255 / 5;
 		private const int PRESSED_RING_ALPHA = 75;
 		private const int DEFAULT_PRESSED_RING_WIDTH_DIP = 4;
 		private const int ANIMATION_TIME_ID = Android.Resource.Integer.ConfigShortAnimTime;
